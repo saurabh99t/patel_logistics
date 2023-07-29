@@ -1,0 +1,1429 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+/* ---------centered div-------------- */
+
+
+.centered-div {
+  text-align: center;
+  
+  background-color: blueviolet;
+  width: 100%;
+  
+  }
+  
+  h1 {
+  display: inline-block;
+  padding: 0 10px; /* Add some spacing around the text */
+  
+  border-bottom: 4px dashed black;
+  }
+  
+  
+  
+    /* ---------centered div-------------- */
+  
+
+
+
+
+
+
+
+
+
+/* ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️ */
+/* Navbar Section Starts  */
+
+
+
+.navbar-logo p{
+  color: orangered;
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 25px;
+  padding-top: 10px;
+
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+  padding: 10px;
+}
+
+.navbar-logo img {
+  height: 40px; /* Adjust the height as needed */
+}
+
+.navbar-links {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.navbar-links a:hover {
+  background-color: #555;
+}
+
+.navbar-button {
+  padding-right: 20px;
+  padding-top: 10px;
+ 
+}
+
+button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px white dashed ;
+  transition: 0.3s ease-in-out;
+}
+
+ button:hover {
+background-color: white;
+color: black;
+ }
+
+  /* Add a media query to make the navbar responsive */
+  @media screen and (max-width: 768px) {
+    .navbar-links {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+
+/*  Navbar Section Ends  */
+/* ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️ */
+/* Section 2 Starts  */
+/* Apply basic styles for the outer section */
+.outer-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+
+.section-two{
+  background-image: url("./Assets/WhatsApp\ Image\ 2023-07-29\ at\ 1.16.21\ PM.jpeg");
+}
+
+
+/* Common styles for both inner sections */
+.inner-section {
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+/* Styles for inner section 1 with width 40% */
+.inner-section1 {
+  width: 40%;
+  /* background-color: #00ff2f; */
+}
+
+/* Styles for inner section 2 with width 60% */
+.inner-section2 {
+  width: 60%;
+  /* background-color: blueviolet; */
+}
+
+/* Styles for the heading in inner section 1 */
+.inner-section1 h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Styles for the paragraph in inner section 1 */
+.inner-section1 p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Styles for the buttons in inner section 1 */
+.inner-section1 .buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.inner-section1 .buttons button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+
+.inner-section img{
+  height: 500px;
+  margin: 20px auto;
+  }
+  
+  
+  .inner-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    
+  padding-left: 50px;
+    
+  }
+  
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+  /* On smaller screens, make both inner sections full width */
+  .inner-section1, .inner-section2 {
+    width: 100%;
+  }
+}
+
+
+/*  Section 2 Ends  */
+/* ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️ */
+/* Section 3 Starts  */
+
+
+
+.outer-section-3wala {
+  padding: 20px;
+  border: 1px solid #ccc;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+     
+
+  
+}
+
+.inner-section1-3wala{
+  width: 48%; /* Adjust width as needed for responsiveness */
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-sizing: border-box;
+  /* border-right: 10px #ff0000; */
+
+}
+
+
+
+.inner-section2-3wala {
+  width: 48%; /* Adjust width as needed for responsiveness */
+  margin-bottom: 20px;
+  border-left: 10px dashed #ff0000 ;
+  /* border-radius: 8px; */
+  padding: 20px;
+  box-sizing: border-box;
+ 
+
+}
+.card-heading-3wala {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.list-items-3wala {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list-items-3wala {
+  margin-bottom: 5px;
+}
+
+.button-3wala {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+.card-3wala{
+  width: 40%;
+  background-color: bisque;
+}
+
+
+
+
+/*  Section 3 Ends  */
+/* ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️ */
+/* Section 4 Starts  */
+/*    4th section ki css */
+
+
+  /* Outer section styles */
+  .outer-section-4th {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /* Inner section styles */
+  .inner-section-4th {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+
+  /* Heading styles */
+  h2 {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+
+  /* Paragraph styles */
+  p {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+
+
+
+  /* ---------centered div-------------- */
+
+
+.centered-div {
+    text-align: center;
+    
+    background-color: blueviolet;
+    width: 100%;
+    
+    }
+    
+    h1 {
+    display: inline-block;
+    padding: 0 10px; /* Add some spacing around the text */
+    
+    border-bottom: 4px dashed black;
+    }
+    
+    
+    
+      /* ---------centered div-------------- */
+
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    .inner-section {
+      flex-basis: 100%;
+    }
+  }
+
+
+/*  Section 4 Ends  */
+/* ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️ */
+/* Section 5 Starts  */
+
+
+
+
+
+
+
+
+.outer-section-5th {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.inner-section1-5th,
+.inner-section2-5th,
+.inner-section3-5th {
+  flex-basis: calc(33.33% - 20px);
+ 
+  padding: 10px;
+  box-sizing: border-box;
+ 
+}
+
+.card-5th {
+  background-color: #ffb1b1;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* padding: 20px; */
+  display: flex;
+margin: 0 auto;
+  width: 25vw;
+
+
+  
+  
+}
+
+.list-1-5th {
+  padding: 0;
+}
+
+.list-1-5th  ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list-1-5th 
+li {
+  padding: 5px;
+}
+
+
+.list-2-5th{
+  background-color: blue;
+  width: 50%;
+  height: 100%;
+  
+}
+
+
+
+.inner-section1-5th p {
+text-align: center;
+}
+
+.inner-section2-5th {
+text-align: center;
+}
+
+.inner-section3-5th {
+text-align: center;
+}
+
+
+
+
+.list-2-5th {
+  padding-left: 20px;
+  width: 10vw;
+}
+
+
+
+.list-2-5th ul {
+  /* padding-left: 20px; */
+
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  .inner-section1-5th,
+  .inner-section2-5th,
+  .inner-section3-5th {
+      flex-basis: 100%;
+  }
+}
+
+
+/* 5th cards css ends  */
+
+/*  Section 5 Ends  */
+/* ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️ */
+/* Section 6 Starts  */
+
+
+ /* section 6 starts   */
+
+
+
+
+ .master-container {
+  height: 35vh;
+  background-color: yellow;  
+
+  border-bottom: 80px solid orangered ;
+}
+
+
+
+
+.centered-div {
+text-align: center;
+
+background-color: blueviolet;
+width: 100%;
+
+}
+
+h1 {
+display: inline-block;
+padding: 0 10px; 
+
+border-bottom: 4px dashed black;
+}
+
+
+
+
+.search-container {
+display: flex;
+justify-content: center;
+align-items: center;
+max-width: 600px;
+margin: 100px auto;
+background-color: #fff;
+padding: 20px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.input-box {
+flex: 1;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+
+.button-book {
+padding: 10px 20px;
+background-color: #007BFF;
+color: #fff;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+.search-container {
+  flex-direction: column;
+}
+
+.input-box {
+  margin-bottom: 10px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*  Section 6 Ends  */
+/* ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️ */
+/* Section 7 Starts  */
+
+
+
+.outer-section-7th {
+  display: flex;
+  flex-wrap: wrap;
+}
+.inner-section-7th {
+  flex: 0 0 48%;
+  /* padding: 20px; */
+}
+.inner-section1-7th {
+  background-color: blueviolet;
+  order: 1;
+}
+.inner-section2-7th {
+  background-color: rgb(209, 160, 255);
+  order: 3;
+}
+.inner-section37-th {
+  order: 2;
+}
+.heading-7th {
+  font-size: 24px;
+  font-weight: bold;
+}
+.paragraph-7th {
+  margin-top: 10px;
+}
+.list-items-7th {
+  margin-top: 10px;
+  list-style: none;
+  padding: 0;
+}
+.list-items-7th li {
+  margin-bottom: 5px;
+}
+.image-7th {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+
+
+.inner-section-7th {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+
+}
+
+
+.section7-brand-name-div p {
+  font-size: 30px;
+}
+
+
+.section-7-para {
+  width: 60%;
+}
+
+
+
+.centered-div-para{
+  text-align: center;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .outer-section-7th{
+    flex-direction: column;
+  }
+  .inner-section-7th {
+    flex: 0 0 100%;
+  }
+}
+
+
+/*  Section 7 Ends  */
+/* ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️ */
+/* Section 8 Starts  */
+
+.centered-div {
+  text-align: center;
+  
+  background-color: blueviolet;
+  width: 100%;
+  
+  }
+  
+  h1 {
+  display: inline-block;
+  padding: 0 10px; /* Add some spacing around the text */
+  
+  border-bottom: 4px dashed black;
+  }
+  
+  
+
+  .button-section-8{
+      text-align: center;
+  }
+
+
+  .button-section-8 button{
+    background-color: rgb(0, 0, 0);
+  }
+  
+
+
+/*  Section 8 Ends  */
+/* ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️ */
+/* Section 9 Starts  */
+
+.outer-section-9th{
+  display: flex;
+  flex-wrap: wrap;
+  height: 60vh;
+}
+.inner-section-9th {
+  flex-basis: 50%;
+  /* padding: 20px; */
+}
+.inner-section1-9th {
+background-color: aquamarine;
+  order: 1;
+}
+.inner-section2-9th {
+background-color: rgb(255, 173, 173);
+  order: 2;
+}
+.heading-9th {
+  font-size: 24px;
+  font-weight: bold;
+}
+.paragraph-9th {
+  font-size: 16px;
+}
+.list-items-9th {
+  list-style-type: square;
+}
+.inner-section-9th img {
+  max-width: 100%;
+  height: auto;
+
+  
+}
+
+
+
+
+
+.inner-section-9th img{
+  height: 60vh;
+  width: 100%;
+}
+
+
+
+.inner-section2-9th {
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+.inner-section2-9th {
+  /* padding-left: 10px; */
+}
+
+.section-9-content-div {
+  padding-left: 40px;
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  .inner-section-9th{
+      flex-basis: 100%;
+  }
+}
+/*  Section 9 Ends  */
+/* ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️ */
+/* Section 10 Starts  */
+.outer-container-10th{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.inner-section-10th {
+  flex-basis: 33.33%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.card-10th {
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  height: 40vh;
+}
+
+.card-10th img {
+  width: 100%;
+  /* max-height: px; */
+  object-fit: cover;
+  border-radius: 5px 5px 0 0;
+}
+
+.card-10th h3 {
+  margin: 10px 0;
+}
+
+
+.card-10th img{
+  height: 100%;
+  object-fit: cover;
+  background-position: center;
+  }
+  
+
+@media screen and (max-width: 768px) {
+  .inner-section-10th {
+      flex-basis: 50%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .inner-section-10th {
+      flex-basis: 100%;
+  }
+}
+
+
+
+
+.read-more-button{
+  text-align: center;
+}
+
+
+/*  Section 10 Ends  */
+/* ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️ */
+/* Section 11 Starts  */
+
+/* Secttion 11  starts  */
+
+.faq-titlee h1 {
+  margin: 50px 0 30px;
+  /* text-align: center; */
+}
+
+
+.faq-titlee{
+text-align: center;
+}
+
+.faq-container {
+  /* background-color: #9e9393;  */
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.faq {
+  background-color: transparent;
+  /* color: #2ecc71; */
+  border: 1px solid #9fa4a8;
+  border-radius: 10px;
+  margin: 20px 0;
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3 ease;
+}
+
+.faq.active {
+  /* background-color: #ff0000; */
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.faq.active::before,
+.faq.active::after {
+  content: "\f075";
+  font-family: "Font Awesome 5 Free";
+
+  font-size: 7rem;
+  position: absolute;
+  opacity: 0.2;
+  top: 20px;
+  left: 20px;
+  z-index: 0;
+}
+
+.faq.active::before {
+  color: #3498db;
+  top: -10px;
+  left: -30px;
+  transform: rotateY(180deg);
+}
+
+.faq-title {
+  margin: 0 35px 0 0;
+}
+
+.faq-text {
+  display: none;
+  margin: 30px 0 0;
+}
+
+.faq.active .faq-text {
+  display: block;
+}
+
+.faq-toggle {
+  /* background-color: transparent; */
+  background-color: #333;
+  border: 0;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  padding: 0;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  height: 30px;
+  width: 30px;
+}
+
+.faq-toggle:focus {
+  outline: 0;
+  color: #007BFF;
+}
+
+.faq-toggle .fa-times {
+  display: none;
+}
+
+.faq.active .faq-toggle .fa-times {
+  color: #ff0000;
+  display: block;
+}
+
+.faq.active .faq-toggle .fa-chevron-down {
+  display: none;
+
+  
+}
+
+.faq.active .faq-toggle {
+  /* background-color: #008cff; */
+  color: #007BFF;
+}
+
+
+/* Section 11 ends  */
+
+/*  Section 11 Ends  */
+/* ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️ */
+/* Section 12 Starts  */
+
+/* Secttion 12 starts  */
+
+
+.centered-div {
+  text-align: center;
+  
+  background-color: blueviolet;
+  width: 100%;
+  
+  }
+  
+ .centered-div h1 {
+  display: inline-block;
+  padding: 0 10px; /* Add some spacing around the text */
+  
+  border-bottom: 4px dashed black;
+  }
+  
+  
+  
+    /* ---------centered div-------------- */
+
+
+
+    
+
+.outer-section-12th{
+  padding: 20px;
+  background-color: #f2f2f2;
+  /* text-align: center;   */
+}
+
+.inner-section-12th {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.inner-section1-12th {
+  flex: 1;
+  max-width: 50%;
+}
+
+.inner-section2-12th {
+  flex: 1;
+  max-width: 50%;
+}
+
+.map-container-12th {
+  height: 300px; /* Adjust the height as needed */
+  border: 1px solid #ccc;
+  margin: 10px;
+}
+
+.inner-section2-12th h2 {
+  color: #333;
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.inner-section2-12th p {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.inner-section2-12th ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+
+.outer-section-12th {
+  background-color: rgb(125, 92, 92);
+}
+
+
+.map-container-12th{
+  background-color: aqua;
+width: 70%;
+float: right;
+}
+
+
+.inner-section2-12th {
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .inner-section-12th{
+    flex-direction: column;
+  }
+
+  .inner-section1-12th,
+  .inner-section2-12th {
+    max-width: 100%;
+  }
+
+  .map-container-12th {
+    height: 200px;
+  }
+}
+
+
+
+
+
+/* Section 12 ends  */
+
+/*  Section 12 Ends  */
+/* ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️ */
+
+
+
+
+
+
+
+
+
+
+
+
+/* ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️ */
+/* Section 13 Starts  */
+
+
+.outer-section-13th  {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #f0f0f0;
+
+  padding: 40px 80px;
+  
+}
+
+
+
+
+
+
+
+.inner-section-13th {
+  box-sizing: border-box;
+  padding: 20px;
+  color: #333;
+}
+
+
+
+.inner-section1-13th h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.inner-section1-13th p {
+  margin-top: 0;
+}
+
+.inner-section2-13th ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.inner-section2-13th li {
+  margin-bottom: 5px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+
+
+
+
+.social-icons-13th{
+  list-style: none;
+}
+
+
+.inner-section-13th H2 {
+  color: orangered;
+}
+
+
+
+/* Section 13 ends  */
+
+
+
+
+
+
+
+
+
+
+
+
+/* Secttion 14  starts  */
+
+
+
+
+.inner-section1-13th {
+  width: 30%;
+}
+
+.inner-section2-13th {
+  width: 20%;
+}
+
+.inner-section3-13th {
+  width: 10%;
+}
+
+.inner-section4-13th {
+  width: 40%;
+  padding-left: 70px;
+}
+
+.inner-section1-13th h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.inner-section1-13th p {
+  margin-top: 0;
+}
+
+.inner-section2-13th ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+
+.social-icons i {
+  font-size: 24px;
+}
+
+@media (max-width: 768px) {
+  .inner-section-13th {
+    width: 100%;
+  }
+}
+/* Section 14 ends  */
+
+
+
+
+@media (max-width: 768px) {
+  .inner-section-13th {
+    width: 100%;
+  }
+}
+
+
+.banner {
+  text-align: center;
+}
+/*  Section 13 Ends  */
+/* ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️ */
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+ 
+  
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
